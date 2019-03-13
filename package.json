@@ -1,0 +1,38 @@
+{
+  "name": "express-winston-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate code for an Express app with Winston logging",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "clean": "npx eslint app.js --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calebfletcher/express-winston-boilerplate.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/calebfletcher/express-winston-boilerplate/issues"
+  },
+  "homepage": "https://github.com/calebfletcher/express-winston-boilerplate#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "express": "^4.16.4",
+    "helmet": "^3.16.0",
+    "lodash": "^4.17.11",
+    "uuid": "^3.3.2",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
